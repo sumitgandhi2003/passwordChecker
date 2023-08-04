@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/12b9f365a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="head">
+      <h1>Password Confirmation</h1>
+    </div>
+    <div id="input">
+      <i class="fa-solid fa-eye" id="eye" onclick="typeChanger()"></i>
+      <input
+        type="password"
+        id="pass1"
+        placeholder="Enter Password"
+        required
+      /><br />
+    </div>
+    <input
+      type="password"
+      id="pass2"
+      placeholder="Renter Password"
+      required
+    /><br />
+    <button id="btn" onclick="passwordChecker()">Confirm</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
